@@ -26,7 +26,7 @@ local lazy_config = {
     -- 操作超时
     timeout = 120,
     -- CDN加速配置
-    url_format = "https://hub.fastgit.org/%s.git",
+    url_format = "https://kkgithub.com/%s.git",
     -- 冷却时间
     cooldown = 60,
   },
