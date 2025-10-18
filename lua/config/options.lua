@@ -2,6 +2,8 @@
 -- Default options that are always set: https://github.com/LazyVim/LazyVim/blob/main/lua/lazyvim/config/options.lua
 -- Add any additional options here
 --
+-- support directly copy to clipboard by vim's y command. (actually lua code)
+vim.opt.clipboard = "unnamedplus"
 
 vim.opt.relativenumber = false -- use absolute number
 vim.opt_local.spell = false -- disable spell check
