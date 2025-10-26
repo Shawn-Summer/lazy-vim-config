@@ -7,7 +7,6 @@ vim.opt.clipboard = "unnamedplus"
 
 vim.opt.relativenumber = true -- use relativ number
 vim.opt_local.spell = false -- disable spell check
-
 ---lspconfig
 -- LSP Server to use for Python.
 -- Set to "basedpyright" to use basedpyright instead of pyright.
