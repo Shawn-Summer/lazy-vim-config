@@ -26,7 +26,8 @@ local lazy_config = {
     -- 操作超时
     timeout = 120,
     -- CDN加速配置
-    url_format = "https://kkgithub.com/%s.git",
+    -- url_format = "https://github.com/%s.git", -- 这里的%s 表示插件的名字例如 nvim-treesitter/nvim-treesitter
+    url_format = "https://gh-proxy.org/https://github.com/%s.git", -- 可以使用这样的加速GitHub镜像站
     -- 冷却时间
     cooldown = 60,
   },
